@@ -40,7 +40,7 @@ By the end of the course, students will be able to:
 
 * Interpret and predict dataset trends using statistical inference and models. 
 
-* Criticallt examine and interpret statistical claims reported in mass media.
+* Critically examine and interpret statistical claims reported in mass media.
 
 # Including Code
 ## Running R Code in a code chunk
@@ -54,6 +54,6 @@ The second line of output is printed out instead, but this means that the calcul
 
 ## Displaying Graphs
 
-```{r}
+```{r warning=FALSE}
 ggplot2::qplot(data = iris, x = Sepal.Length, y = Sepal.Width)
 ```
